@@ -8,7 +8,7 @@ The fun thing is, since the writes are persisted in the `localStorage` you can j
 
 ![](assets/image.png)
 
-## Run locally
+## Run locally
 1. Start the database and the electric sql service with `docker-compose up`
 2. Start the backend (inside `packages/backend`) `deno run dev`
 3. Start the frontend (inside `packages/frontend`) `deno run dev`
@@ -17,12 +17,12 @@ The Login is on http://localhost:5173/auth/login, and the app on http://localhos
 
 ## Stack
 
-### Backend
+### Backend
 - hono
 - drizzle
 - better-auth
 
-### Frontend
+### Frontend
 - solid.js
 - tailwind
 - electric-sql client
