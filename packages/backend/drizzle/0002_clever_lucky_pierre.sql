@@ -1,0 +1,1 @@
+ALTER TABLE "schedule" ADD COLUMN "last_write_id" uuid NOT NULL;
