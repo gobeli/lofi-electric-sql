@@ -22,7 +22,6 @@ services:
     image: electricsql/electric:1.0.0-beta.8
     environment:
       DATABASE_URL: postgresql://postgres:password@postgres:5432/electric?sslmode=disable
-      # DATABASE_URL: postgresql://neondb_owner:npg_QYRhFk8zT4qX@ep-young-wave-a9eifju3.gwc.azure.neon.tech/neondb?sslmode=require
     ports:
       - "3100:3000"
     depends_on:
